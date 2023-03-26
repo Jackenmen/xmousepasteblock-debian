@@ -1,3 +1,9 @@
+xmousepasteblock (1.3-2+jackenmen) jammy; urgency=high
+
+  * Fix installation of the user service ending up as system service
+
+ -- Jakub Kuczys <me@jacken.men>  Sun, 26 Mar 2023 07:15:18 +0200
+
 xmousepasteblock (1.3-1+jackenmen) jammy; urgency=medium
 
   * Initial release
