@@ -1,0 +1,23 @@
+Source: xmousepasteblock
+Section: x11
+Priority: optional
+Maintainer: Jakub Kuczys <me@jacken.men>
+Build-Depends:
+  debhelper-compat (= 13),
+  pkg-config,
+  libev-dev,
+  libx11-dev,
+  libxi-dev,
+Standards-Version: 4.6.0
+Homepage: https://github.com/milaq/xmousepasteblock
+Vcs-Browser: https://github.com/Jackenmen/xmousepasteblock-debian
+Vcs-Git: https://github.com/Jackenmen/xmousepasteblock-debian
+Rules-Requires-Root: no
+
+Package: xmousepasteblock
+Architecture: any
+Depends:
+  ${shlibs:Depends},
+  ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
